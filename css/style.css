@@ -1,9 +1,12 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .master {
   width: 960px;
   border: 5px solid red;
   margin: 0 auto;
   clear: both;
-  
 }
 
 .poster {
@@ -42,7 +45,7 @@
   font-weight: 600;
 }
 
-.service P{
+.service P {
   font-size: 14px;
   color: gray;
   font-family: sans-serif;
@@ -50,72 +53,111 @@
   word-spacing: 3px;
 }
 
-.three_sec_div{
+.three_sec_div {
   width: 960px;
   border: 2px solid green;
-  clear: both;
+  clear: both;  
 }
 
-.left_featured_div{
-
+.left_featured_div {
   width: 460px;
   border: 5px solid #5fb3bd;
   background-color: #fff;
-  float: left; 
+  float: left;
   clear: both;
-  
 }
 
-.featured{
+.featured {
   width: 170px;
   background-color: #1e233a;
   color: #fff;
   text-align: center;
   margin-left: 20px;
-  
 }
 
-.featured h3{
-
+.featured h3 {
   font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif ;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 16px 10px;
   font-weight: 300;
   letter-spacing: 2.5px;
 }
 
-.left_featured_div img{
-
+.left_featured_div img {
   float: left;
   margin-left: 20px;
   margin-bottom: 35px;
 }
 
-.left_featured_div h4{
-
+.left_featured_div h4 {
   float: right;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 20px;
   margin: 0px;
   margin-right: 150px;
-
 }
 
-.left_featured_div p{
+.left_featured_div p {
   clear: both;
   margin-left: 20px;
-  font-size: 15px ;
+  font-size: 15px;
   color: gray;
   line-height: 25px;
   margin-right: 20px;
 }
 
-
 .right_hairstyle_div {
+  width: 460px;
+  border: 5px solid #5fb3bd;
+  background-color: #519194;
+  color: #fff;
+  float: left;
+  margin-left: 20px;
+}
 
+.hairstyle_div{
+
+  width: 170px;
+  background-color: #1e233a;
+  color: #fff;
+  text-align: center;
+  margin-left: 20px;
+  clear: both;
+}
+
+.hairstyle_div h3{
+
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 16px 10px;
+  font-weight: 300;
+  letter-spacing: 2.5px;
+}
+
+.right_hairstyle_div p{
+
+  font-size: 16px;
+  color: gray;
+  line-height: 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #fff;
+}
+
+
+.right_hairstyle_div h4{
+
+  margin-left: 350px;
+  font-size: 21px;
+  font-weight: 300;
+}
+
+
+.right_second_div{
   width: 460px;
   border: 5px solid #5fb3bd;
   float: right;
   
 }
+
