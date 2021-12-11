@@ -2,9 +2,57 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.wrapper {
+  width: 100%;
+  background-color: #4c8f96;
+  margin-bottom: 50px;
+}
+
+.navigation_area {
+  width: 860px;
+  height: 185px;
+  margin: 0 auto;
+}
+
+.logo_div {
+  width: 230px;
+  background-color: #1e233a;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 80px;
+  float: left;
+}
+
+.logo_div h1 {
+  padding: 30px 0;
+  font-size: 50px;
+  margin: 0;
+}
+
+.navigation_area ul {
+  float: right;
+  list-style-type: none;
+  margin-right: 0;
+  margin-top: 122px;
+}
+
+.navigation_area ul li{
+  float: left;
+  margin-left: 20px;
+  background-color:#1e233a ;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+#dark_li{
+  background-color: #196e77 !important;
+}
+
 .master {
   width: 860px;
-  border: 2px solid grey;
+  /* border: 2px solid grey; */
   margin: 0 auto;
   /* clear: both; */
 }
@@ -35,7 +83,6 @@ body {
   float: left;
   margin-right: 25px;
   margin-bottom: 50px;
-  
 }
 
 .service img {
@@ -128,10 +175,9 @@ body {
   margin-bottom: 0;
 }
 
-.right_hairstyle_div h3{
+.right_hairstyle_div h3 {
   margin-left: 300px;
 }
-
 
 .right_hairstyle_div p {
   font-size: 14px;
@@ -141,8 +187,9 @@ body {
 
 /* Right Second Div Starts Here  */
 
-.right_second_div{
+.right_second_div {
   width: 380px;
+  height: 180px;
   border: 5px solid #5fb3db;
   background-color: #519194;
   color: #fff;
@@ -151,15 +198,15 @@ body {
   padding-right: 30px;
 }
 
-.right_second_div img{
+.right_second_div img {
   float: left;
-  width: 151px;
+  width: 158px;
   margin-right: 10px;
+  position: relative;
+  top: -11px;
 }
 
-.right_second_div h4{
+.right_second_div h4 {
   float: left;
   margin-top: 55px;
-  
 }
-
