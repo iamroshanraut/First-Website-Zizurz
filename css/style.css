@@ -4,17 +4,17 @@ body {
 
 .master {
   width: 860px;
-  /* border: 2px solid grey; */
+  border: 2px solid grey;
   margin: 0 auto;
-  clear: both;
+  /* clear: both; */
 }
 
 .poster {
   width: 860px;
   height: 356px;
   border: 2px solid #5fb3db;
-  background-color: ;
-  clear: both;
+  background-color: #fff;
+  /* clear: both; */
   margin-bottom: 30px;
 }
 
@@ -35,6 +35,7 @@ body {
   float: left;
   margin-right: 25px;
   margin-bottom: 50px;
+  
 }
 
 .service img {
@@ -56,12 +57,13 @@ body {
 /* Third Section Starts Here  */
 
 .left_featured_div {
-  width: 410px;
+  width: 370px;
   border: 5px solid #5fb3db;
   clear: both;
   padding-left: 20px;
   padding-right: 20px;
-} 
+  float: left;
+}
 
 .featured {
   width: 150px;
@@ -70,7 +72,6 @@ body {
   color: #fff;
   position: relative;
   top: -45px;
-  
 }
 
 .featured h2 {
@@ -88,7 +89,7 @@ body {
   font-size: 21px;
   float: right;
   margin: 0;
-  margin-right: 100px;
+  margin-right: 60px;
   font-weight: 500;
 }
 
@@ -97,3 +98,68 @@ body {
   font-size: 15px;
   line-height: 22px;
 }
+
+/* Right Div Starts Here  */
+
+.right_hairstyle_div {
+  width: 370px;
+  border: 5px solid #5fb3db;
+  background-color: #519194;
+  color: #fff;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.hairstyle_div {
+  width: 150px;
+  text-align: center;
+  background-color: #1e233a;
+  color: #fff;
+  position: relative;
+  top: -45px;
+}
+
+.hairstyle_div h2 {
+  padding: 10px 0;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.right_hairstyle_div h3{
+  margin-left: 300px;
+}
+
+
+.right_hairstyle_div p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 0;
+}
+
+/* Right Second Div Starts Here  */
+
+.right_second_div{
+  width: 380px;
+  border: 5px solid #5fb3db;
+  background-color: #519194;
+  color: #fff;
+  float: left;
+  margin-left: 20px;
+  padding-right: 30px;
+}
+
+.right_second_div img{
+  float: left;
+  width: 151px;
+  margin-right: 10px;
+}
+
+.right_second_div h4{
+  float: left;
+  margin-top: 55px;
+  
+}
+
